@@ -1,0 +1,99 @@
+.post-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 14px;
+    margin: 0 10px 10px 0;
+    box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+
+}
+
+
+
+.post-container {
+flex: 1 1 89%;
+padding-bottom: 1em;
+padding-left: 1em;
+background-color: white;
+}
+
+.post-votes-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 2%;
+    padding-top: 1em;
+    background-color: #f3f3f3;
+
+}
+
+.post-votes-container button {
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.post-image-container img {
+    width: 32%;
+}
+
+.icon-action-button {
+    font-size: 1.3em;
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+}
+
+.up-vote :hover {
+    color: green;
+}
+
+.up-vote :active {
+    color: green;
+}
+
+.down-vote :hover {
+    color: red;
+}
+
+.down-vote :active {
+    color: red;
+}
+
+.post-votes-value {
+    align-self: center;
+}
+
+.post-details {
+    border-top: 1px solid black;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5em;
+
+}
+
+.author-details {
+    font-size: medium;
+    font-weight: bold;
+    color: #80A142;
+}
+
+.created {
+    font-weight: bold;
+    font-size: medium;
+    color: #80A142;
+
+}
+
+.post-comments-container button {   
+    border: none;
+    background-color: white;
+    font-size: 2em;
+    color: #80A142;
+}
+
+.post-url a {
+    color: green;
+    padding-right: 10px;
+}
